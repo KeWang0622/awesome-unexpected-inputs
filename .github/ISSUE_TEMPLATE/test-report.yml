@@ -1,0 +1,31 @@
+name: Report a firsthand result
+description: A precise success or failure on your own setup
+title: "Test report: "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Project ID and version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Hardware and software
+      description: Exact model/revision, OS, firmware, drivers, peripherals and connections.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Steps and observed result
+      description: Include what worked, what failed, limits, test date, and evidence you can share. Redact personal information.
+    validations:
+      required: true
+  - type: checkboxes
+    id: firsthand
+    attributes:
+      label: Provenance
+      options:
+        - label: I performed this test myself; I am not reporting an upstream demo as my own test.
+          required: true

@@ -1,0 +1,36 @@
+name: Suggest a project
+description: One useful outcome with primary evidence
+title: "Add: "
+labels: []
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Project and primary source
+      placeholder: Name and maintainer URL
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What does it let someone do?
+      description: Explain the device or input, bridge/software, and result.
+    validations:
+      required: true
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Requirements and limits
+      description: Exact hardware, OS, additional equipment, costs or service dependencies when known.
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: What did you verify?
+      options:
+        - I reviewed primary documentation
+        - I personally tried the setup and can describe the result
+        - This is a lead that still needs review
+    validations:
+      required: true

@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Awesome Unexpected Inputs project catalog",
+  "$comment": "Runtime validation additionally checks calendar validity and future dates, URL hostname/IP/port rules, canonical duplicate IDs/names/URLs, configured spotlight references, nonempty categories, and category/name order. JSON Schema format assertions depend on the consumer. Config is validated separately by catalog.py.",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "required": [
+      "category",
+      "checked_at",
+      "devices",
+      "evidence_note",
+      "evidence_url",
+      "id",
+      "limitations",
+      "name",
+      "outcome",
+      "outcome_zh",
+      "requirements",
+      "status",
+      "steps",
+      "summary",
+      "summary_zh",
+      "url"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "category": {
+        "type": "string",
+        "enum": [
+          "Voice and sound",
+          "Eyes and face",
+          "Head and body",
+          "Hands in air",
+          "Objects and surfaces",
+          "Tilt and motion",
+          "Breath and switches"
+        ]
+      },
+      "checked_at": {
+        "type": "string",
+        "format": "date",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "devices": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+        }
+      },
+      "evidence_note": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+      },
+      "evidence_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://[^\\s<>\"\\\\()]+$"
+      },
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "limitations": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+        }
+      },
+      "media_note": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+      },
+      "media_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://[^\\s<>\"\\\\()]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+      },
+      "outcome": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+      },
+      "outcome_zh": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+      },
+      "requirements": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+        }
+      },
+      "source_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://[^\\s<>\"\\\\()]+$"
+      },
+      "spotlight": {
+        "type": "boolean"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "released",
+          "source-build",
+          "research",
+          "archived"
+        ]
+      },
+      "steps": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+        }
+      },
+      "summary": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+      },
+      "summary_zh": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^(?![\\s\\S]*[\\r\\n<>\\[\\]|])(?=[\\s\\S]*\\S)[\\s\\S]+$"
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://[^\\s<>\"\\\\()]+$"
+      }
+    },
+    "dependentRequired": {
+      "media_url": [
+        "media_note"
+      ]
+    }
+  }
+}

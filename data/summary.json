@@ -1,0 +1,12 @@
+{
+  "projects": 33,
+  "categories": 7,
+  "status": {
+    "released": 24,
+    "source-build": 4,
+    "research": 3,
+    "archived": 2
+  },
+  "latest_source_review": "2026-10-26",
+  "independently_tested_setups": 0
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "awesome-unexpected-inputs",
+  "title": "Awesome Unexpected Inputs",
+  "title_zh": "Awesome Unexpected Inputs · 键鼠之外的交互方式",
+  "tagline": "Make a move. Make something happen.",
+  "tagline_zh": "一个动作，打开一种新的交互方式。",
+  "description": "An illustrated collection of ways to control computers with voice, gaze, movement, breath and everyday objects. Each project connects a human input to a concrete action.",
+  "description_zh": "探索语音、视线、动作、呼吸与日常物件如何控制电脑。每个项目都说明：你做什么、什么检测它、最后能完成什么。",
+  "theme": "inputs",
+  "categories": [
+    {
+      "id": "voice-and-sound",
+      "name": "Voice and sound",
+      "name_zh": "语音与声音",
+      "description": "Speech, commands and non-speech sounds mapped to computer actions.",
+      "description_zh": "把语音指令和非语言声音映射为电脑操作。"
+    },
+    {
+      "id": "eyes-and-face",
+      "name": "Eyes and face",
+      "name_zh": "视线与面部",
+      "description": "Eye tracking and facial movement for typing, selection, games and music.",
+      "description_zh": "用眼动与面部动作进行输入、选择、游戏和音乐创作。"
+    },
+    {
+      "id": "head-and-body",
+      "name": "Head and body",
+      "name_zh": "头部与身体",
+      "description": "Move a pointer, look around a game world or shape sound through motion.",
+      "description_zh": "用动作移动指针、改变游戏视角或创作声音。"
+    },
+    {
+      "id": "hands-in-air",
+      "name": "Hands in air",
+      "name_zh": "空中手势",
+      "description": "Hand tracking becomes touchless control with the specified tracking hardware.",
+      "description_zh": "配合指定追踪硬件，让手部动作变成非接触式控制。"
+    },
+    {
+      "id": "objects-and-surfaces",
+      "name": "Objects and surfaces",
+      "name_zh": "物件与表面",
+      "description": "Paper, markers and conductive materials become program interfaces.",
+      "description_zh": "让纸张、标记和导电材料成为程序界面。"
+    },
+    {
+      "id": "tilt-and-motion",
+      "name": "Tilt and motion",
+      "name_zh": "倾斜与运动",
+      "description": "Gyroscopes, phones and small boards produce aiming, pointing and musical control.",
+      "description_zh": "用陀螺仪、手机和小型开发板进行瞄准、指针和音乐控制。"
+    },
+    {
+      "id": "breath-and-switches",
+      "name": "Breath and switches",
+      "name_zh": "呼吸与开关",
+      "description": "Purpose-built interfaces map sip/puff, switches and compact movements to input.",
+      "description_zh": "用专用接口，把吹吸、开关和小幅动作转成输入。"
+    }
+  ],
+  "spotlights": [
+    {
+      "id": "talon",
+      "from": "Voice / sound",
+      "to": "Desktop actions",
+      "icon": "voice",
+      "output": "command"
+    },
+    {
+      "id": "optikey",
+      "from": "Supported tracker",
+      "to": "Gaze typing",
+      "icon": "eye",
+      "output": "cursor"
+    },
+    {
+      "id": "eyeharp",
+      "from": "Gaze + tracker",
+      "to": "Music",
+      "icon": "eye",
+      "output": "music"
+    },
+    {
+      "id": "quadstick",
+      "from": "Sip / puff",
+      "to": "Computer commands",
+      "icon": "breath",
+      "output": "control"
+    },
+    {
+      "id": "paper-playground",
+      "from": "Encoded paper",
+      "to": "Interactive output",
+      "icon": "object",
+      "output": "dashboard"
+    },
+    {
+      "id": "joyshockmapper",
+      "from": "Controller tilt",
+      "to": "Game aiming",
+      "icon": "console",
+      "output": "game"
+    }
+  ],
+  "sibling": "**Explore next:** [awesome-device-afterlife](https://github.com/KeWang0622/awesome-device-afterlife) · [Awesome iPhone Duo](https://github.com/KeWang0622/awesome-iphone-duo)"
+}

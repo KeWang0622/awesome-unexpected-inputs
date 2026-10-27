@@ -1,0 +1,17 @@
+name: Correct an entry
+description: Broken links, changed requirements or unsupported claims
+title: "Correct: "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Project ID or catalog link
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What changed or is incorrect?
+      description: Quote the specific claim and link the primary evidence for a correction.
+    validations:
+      required: true

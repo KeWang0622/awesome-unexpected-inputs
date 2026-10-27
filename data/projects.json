@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "lipsurf",
+    "name": "LipSurf",
+    "category": "Voice and sound",
+    "url": "https://www.lipsurf.com/",
+    "summary": "Navigate browser pages, dictate text, and invoke commands using a microphone and a Chrome extension.",
+    "summary_zh": "用麦克风和 Chrome 扩展浏览网页、输入文本并执行命令。",
+    "outcome": "Voice-operated browsing",
+    "outcome_zh": "语音浏览网页",
+    "devices": [
+      "Chrome on Windows, macOS, Linux or Chromebook"
+    ],
+    "requirements": [
+      "Microphone",
+      "LipSurf extension",
+      "Free daily allowance; paid unlimited plan"
+    ],
+    "status": "released",
+    "evidence_url": "https://www.lipsurf.com/",
+    "evidence_note": "Developer describes supported platforms and voice commands.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Controls supported browser workflows.",
+      "Free plan limits daily commands."
+    ],
+    "steps": [
+      "Install the extension.",
+      "Allow microphone access.",
+      "Use its command help to navigate."
+    ]
+  },
+  {
+    "id": "mac-vocal-shortcuts",
+    "name": "macOS Vocal Shortcuts",
+    "category": "Voice and sound",
+    "url": "https://support.apple.com/en-euro/guide/mac-help/mchlf4548bb6/27/mac/27",
+    "summary": "Associate a trained word or custom sound with a chosen Mac action.",
+    "summary_zh": "把训练过的词语或自定义声音关联到指定的 Mac 操作。",
+    "outcome": "Personal sound shortcuts",
+    "outcome_zh": "个人声音快捷指令",
+    "devices": [
+      "Apple silicon Mac"
+    ],
+    "requirements": [
+      "Microphone"
+    ],
+    "status": "released",
+    "evidence_url": "https://support.apple.com/en-euro/guide/mac-help/mchlf4548bb6/27/mac/27",
+    "evidence_note": "Apple describes custom utterances and on-device recognition.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Requires Apple silicon.",
+      "Each utterance needs training."
+    ],
+    "steps": [
+      "Open Accessibility → Vocal Shortcuts.",
+      "Choose an action.",
+      "Repeat the chosen utterance during setup."
+    ]
+  },
+  {
+    "id": "mac-voice-control",
+    "name": "macOS Voice Control",
+    "category": "Voice and sound",
+    "url": "https://support.apple.com/en-ie/guide/mac-help/mh40719/27/mac/27",
+    "summary": "Use spoken commands to open apps, click controls, scroll pages, and dictate text on a Mac.",
+    "summary_zh": "通过口述命令在 Mac 上打开应用、点击控件、滚动页面和输入文字。",
+    "outcome": "Navigate a Mac by voice",
+    "outcome_zh": "语音操作 Mac",
+    "devices": [
+      "Mac"
+    ],
+    "requirements": [
+      "Microphone",
+      "Supported recognition language"
+    ],
+    "status": "released",
+    "evidence_url": "https://support.apple.com/en-ie/guide/mac-help/mh40719/27/mac/27",
+    "evidence_note": "Apple documents commands and the built-in tutorial.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Standard Dictation is unavailable while Voice Control runs."
+    ],
+    "steps": [
+      "Enable Voice Control in Accessibility settings.",
+      "Open its tutorial.",
+      "Use Show Commands to discover actions."
+    ]
+  },
+  {
+    "id": "parrot-py",
+    "name": "Parrot.py",
+    "category": "Voice and sound",
+    "url": "https://github.com/chaosparrot/parrot.py",
+    "summary": "Train personally chosen clicks, chirps, or other non-speech sounds to trigger keyboard and mouse actions.",
+    "summary_zh": "训练自己选择的点击声、啾声等非语音声音，用来触发键盘和鼠标操作。",
+    "outcome": "Custom sound controls",
+    "outcome_zh": "自定义声音控制",
+    "devices": [
+      "Windows",
+      "macOS",
+      "Linux X11"
+    ],
+    "requirements": [
+      "Microphone",
+      "64-bit Python 3.8"
+    ],
+    "status": "research",
+    "evidence_url": "https://github.com/chaosparrot/parrot.py",
+    "evidence_note": "README documents recording, training and playback.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Prototype; training required.",
+      "Gaze control requires separate software."
+    ],
+    "steps": [
+      "Record labeled sounds.",
+      "Train and inspect the model.",
+      "Configure actions and run play.py."
+    ]
+  },
+  {
+    "id": "talon",
+    "name": "Talon",
+    "category": "Voice and sound",
+    "url": "https://talonvoice.com/",
+    "summary": "Operate desktop software through spoken commands and short mouth sounds; optionally combine them with gaze pointing.",
+    "summary_zh": "用语音命令和简短口腔声音操作桌面软件，也可配合眼动指针。",
+    "outcome": "Hands-free desktop commands",
+    "outcome_zh": "免手操作桌面",
+    "devices": [
+      "Windows",
+      "macOS",
+      "Linux X11"
+    ],
+    "requirements": [
+      "Microphone",
+      "Compatible command set",
+      "Free speech engine; optional paid Talon+"
+    ],
+    "status": "released",
+    "evidence_url": "https://talonvoice.com/docs/reference/official.html",
+    "evidence_note": "Official installation and input documentation.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Linux Wayland unsupported.",
+      "Eye pointing needs compatible tracking hardware."
+    ],
+    "steps": [
+      "Install Talon.",
+      "Configure speech recognition and commands.",
+      "Practice commands or sound actions."
+    ],
+    "spotlight": true
+  },
+  {
+    "id": "voiceattack",
+    "name": "VoiceAttack",
+    "category": "Voice and sound",
+    "url": "https://www.voiceattack.com/",
+    "summary": "Turn spoken phrases into game controls, application shortcuts, and multi-step macros.",
+    "summary_zh": "把口述短语变成游戏控制、应用快捷键和多步骤宏。",
+    "outcome": "Speak a command sequence",
+    "outcome_zh": "语音执行一串操作",
+    "devices": [
+      "Windows"
+    ],
+    "requirements": [
+      "Microphone",
+      "Paid registration beyond the limited free trial"
+    ],
+    "status": "released",
+    "evidence_url": "https://www.voiceattack.com/VoiceAttackHelpV2.pdf",
+    "evidence_note": "Developer manual describes profiles and command actions.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Trial limits profiles and commands.",
+      "Macros require configuration."
+    ],
+    "steps": [
+      "Install and select the microphone.",
+      "Create a phrase with actions.",
+      "Test the command in its target application."
+    ]
+  },
+  {
+    "id": "windows-voice-access",
+    "name": "Windows Voice Access",
+    "category": "Voice and sound",
+    "url": "https://support.microsoft.com/en-us/accessibility/windows/voice-access/get-started-with-voice-access",
+    "summary": "Control Windows and compose text with speech recognition that runs locally after its language model is downloaded.",
+    "summary_zh": "下载语言模型后，通过本地语音识别控制 Windows 和输入文字。",
+    "outcome": "Offline voice control",
+    "outcome_zh": "离线语音控制",
+    "devices": [
+      "Windows 11 22H2 or later"
+    ],
+    "requirements": [
+      "Microphone",
+      "Initial language-model download"
+    ],
+    "status": "released",
+    "evidence_url": "https://support.microsoft.com/en-us/accessibility/windows/voice-access/get-started-with-voice-access",
+    "evidence_note": "Microsoft documents setup and the interactive guide.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Supported languages vary.",
+      "Initial setup needs internet."
+    ],
+    "steps": [
+      "Enable Voice Access in Accessibility settings.",
+      "Download the language and configure microphone.",
+      "Complete the interactive guide."
+    ]
+  },
+  {
+    "id": "android-camera-switches",
+    "name": "Android Camera Switches",
+    "category": "Eyes and face",
+    "url": "https://support.google.com/accessibility/android/answer/11150722?hl=en",
+    "summary": "Map facial gestures to scanning and selection actions, using a phone's front camera as switch input.",
+    "summary_zh": "把面部动作映射为扫描和选择操作，将手机前置摄像头用作开关输入。",
+    "outcome": "Face gestures select controls",
+    "outcome_zh": "面部动作选择控件",
+    "devices": [
+      "Compatible Android device"
+    ],
+    "requirements": [
+      "Front camera",
+      "Switch Access"
+    ],
+    "status": "released",
+    "evidence_url": "https://support.google.com/accessibility/android/answer/11150722?hl=en",
+    "evidence_note": "Google documents gesture assignments and setup.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Cannot operate alongside other camera apps.",
+      "Initial setup may require assistance."
+    ],
+    "steps": [
+      "Open Switch Access setup.",
+      "Choose Camera Switch and assign gestures.",
+      "Adjust gesture size and hold time."
+    ]
+  },
+  {
+    "id": "eyegestures",
+    "name": "EyeGestures Demo",
+    "category": "Eyes and face",
+    "url": "https://github.com/NativeSensors/EyeGestures",
+    "summary": "Run a webcam gaze-calibration example as a starting point for a custom gaze interface.",
+    "summary_zh": "运行基于摄像头的视线校准示例，作为开发自定义眼动界面的起点。",
+    "outcome": "Prototype gaze input",
+    "outcome_zh": "制作眼动输入原型",
+    "devices": [
+      "Python-capable computer"
+    ],
+    "requirements": [
+      "Webcam",
+      "Python dependencies"
+    ],
+    "status": "source-build",
+    "evidence_url": "https://github.com/NativeSensors/EyeGestures",
+    "evidence_note": "README documents package installation and example execution.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Developer integration required.",
+      "Dependency installation may need adjustment."
+    ],
+    "steps": [
+      "Install eyeGestures and obtain examples.",
+      "Run examples/simple_example_v4.py.",
+      "Calibrate at the documented viewing distance."
+    ]
+  },
+  {
+    "id": "eyeharp",
+    "name": "EyeHarp",
+    "category": "Eyes and face",
+    "url": "https://eyeharp.org/",
+    "summary": "Play a musical instrument by selecting notes with gaze; head tracking or another pointer can also control it.",
+    "summary_zh": "通过目光选择音符来演奏乐器，也可使用头部追踪或其他指针设备。",
+    "outcome": "Perform music with gaze",
+    "outcome_zh": "用眼动演奏音乐",
+    "devices": [
+      "Windows"
+    ],
+    "requirements": [
+      "Separate Tobii eye tracker for gaze",
+      "Registration and license key",
+      "Free basic piano; paid full edition"
+    ],
+    "status": "released",
+    "evidence_url": "https://eyeharp.org/faq/",
+    "evidence_note": "Developer FAQ explains installation, trackers and editions.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Tracker calibration is required."
+    ],
+    "steps": [
+      "Register and download EyeHarp.",
+      "Install and activate the emailed key.",
+      "Connect the tracker and choose an instrument."
+    ],
+    "spotlight": true
+  },
+  {
+    "id": "eyemine",
+    "name": "EyeMine 2",
+    "category": "Eyes and face",
+    "url": "https://www.specialeffect.org.uk/how-we-can-help/eyemine",
+    "summary": "Control Minecraft with a gaze-operated onscreen interface for movement, building, and mining.",
+    "summary_zh": "通过眼动操作的屏幕界面控制 Minecraft 中的移动、建造和采矿。",
+    "outcome": "Play Minecraft with gaze",
+    "outcome_zh": "用眼动玩 Minecraft",
+    "devices": [
+      "Windows"
+    ],
+    "requirements": [
+      "Paid Minecraft Java Edition license (1.14.4)",
+      "Compatible eye tracker"
+    ],
+    "status": "released",
+    "evidence_url": "https://www.specialeffect.org.uk/how-we-can-help/eyemine",
+    "evidence_note": "SpecialEffect specifies the supported game and input setup.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Not a console or mobile Minecraft solution.",
+      "Tracker compatibility varies."
+    ],
+    "steps": [
+      "Install EyeMine and the supported Minecraft version.",
+      "Configure the eye tracker.",
+      "Start with the beginner keyboard."
+    ]
+  },
+  {
+    "id": "gazeplay",
+    "name": "GazePlay",
+    "category": "Eyes and face",
+    "url": "https://gazeplay.github.io/GazePlay/",
+    "summary": "Play small games using eye movement through an eye tracker that controls the pointer.",
+    "summary_zh": "通过能控制指针的眼动仪，用目光玩小游戏。",
+    "outcome": "Gaze-controlled games",
+    "outcome_zh": "眼动小游戏",
+    "devices": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "requirements": [
+      "Compatible eye tracker"
+    ],
+    "status": "released",
+    "evidence_url": "https://gazeplay.github.io/GazePlay/",
+    "evidence_note": "Project site provides downloads and tracker requirements.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Direct Tobii integration is Windows-specific.",
+      "Other trackers need pointer emulation."
+    ],
+    "steps": [
+      "Install the platform build.",
+      "Configure the tracker input.",
+      "Choose a game."
+    ]
+  },
+  {
+    "id": "iphone-eye-tracking",
+    "name": "iPhone Eye Tracking",
+    "category": "Eyes and face",
+    "url": "https://support.apple.com/en-sa/guide/iphone/iph66057d0f6/ios",
+    "summary": "Use the front camera to move a focus pointer with your eyes and select controls by dwelling.",
+    "summary_zh": "使用前置摄像头跟踪视线，通过停留选择屏幕控件。",
+    "outcome": "Look to select iPhone controls",
+    "outcome_zh": "注视选择 iPhone 控件",
+    "devices": [
+      "Supported iPhone"
+    ],
+    "requirements": [
+      "Front camera",
+      "Stable, well-lit placement"
+    ],
+    "status": "released",
+    "evidence_url": "https://support.apple.com/en-sa/guide/iphone/iph66057d0f6/ios",
+    "evidence_note": "Apple documents calibration and dwell selection.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Model support varies.",
+      "Recalibration occurs when enabled."
+    ],
+    "steps": [
+      "Enable Eye Tracking in Accessibility.",
+      "Follow the calibration dots.",
+      "Look at a control to dwell-select."
+    ]
+  },
+  {
+    "id": "look-to-speak",
+    "name": "Look to Speak",
+    "category": "Eyes and face",
+    "url": "https://play.google.com/store/apps/details?id=com.androidexperiments.looktospeak",
+    "summary": "Select prepared phrases or pictures with eye movements and have the phone speak the selection.",
+    "summary_zh": "用眼睛动作选择预设短语或图片，让手机朗读选择的内容。",
+    "outcome": "Gaze-selected spoken phrases",
+    "outcome_zh": "眼动选择并朗读短语",
+    "devices": [
+      "Android phone"
+    ],
+    "requirements": [
+      "Front camera"
+    ],
+    "status": "released",
+    "evidence_url": "https://play.google.com/store/apps/details?id=com.androidexperiments.looktospeak",
+    "evidence_note": "Google listing describes selection and on-device processing.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Selects prepared content rather than unrestricted dictation."
+    ],
+    "steps": [
+      "Install and allow camera access.",
+      "Complete the setup tutorial.",
+      "Use eye movements to select a phrase."
+    ]
+  },
+  {
+    "id": "optikey",
+    "name": "OptiKey",
+    "category": "Eyes and face",
+    "url": "https://optikey.org/",
+    "summary": "Select an onscreen keyboard and desktop controls with gaze, dwell, or a compatible switch; composed text can be spoken aloud.",
+    "summary_zh": "通过注视、停留或兼容开关选择屏幕键盘和桌面控件，也能朗读输入的文字。",
+    "outcome": "Gaze typing and desktop access",
+    "outcome_zh": "眼动打字与桌面操作",
+    "devices": [
+      "Windows"
+    ],
+    "requirements": [
+      "Supported eye tracker for gaze"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/OptiKey/OptiKey/wiki/Optikey-versions",
+    "evidence_note": "Version matrix documents hardware compatibility changes.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Version 4 drops several older Tobii trackers; check compatibility."
+    ],
+    "steps": [
+      "Match tracker to OptiKey version.",
+      "Install the appropriate edition.",
+      "Configure pointing and dwell selection."
+    ],
+    "spotlight": true,
+    "source_url": "https://github.com/OptiKey/OptiKey"
+  },
+  {
+    "id": "project-gameface",
+    "name": "Project Gameface",
+    "category": "Eyes and face",
+    "url": "https://github.com/google/project-gameface",
+    "summary": "Combine head movement with facial gestures to move a cursor and trigger configured actions.",
+    "summary_zh": "结合头部运动与面部动作移动光标并触发配置的操作。",
+    "outcome": "Face-operated cursor prototype",
+    "outcome_zh": "面部控制光标原型",
+    "devices": [
+      "Windows",
+      "Android"
+    ],
+    "requirements": [
+      "Camera",
+      "Platform-specific setup"
+    ],
+    "status": "archived",
+    "evidence_url": "https://github.com/google/project-gameface",
+    "evidence_note": "Google archived the repository on September 5, 2025.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Archived; no ongoing upstream maintenance.",
+      "Separate platform implementations."
+    ],
+    "steps": [
+      "Follow the relevant platform README.",
+      "Grant camera access.",
+      "Configure gestures and movement sensitivity."
+    ]
+  },
+  {
+    "id": "webgazer-ball-game",
+    "name": "WebGazer Ball Collision Demo",
+    "category": "Eyes and face",
+    "url": "https://webgazer.cs.brown.edu/",
+    "summary": "Move an orange ball toward a blue target with estimated gaze in a browser demonstration.",
+    "summary_zh": "在浏览器演示中，用估计的注视位置引导橙色球靠近蓝色目标。",
+    "outcome": "A webcam gaze game",
+    "outcome_zh": "摄像头眼动游戏",
+    "devices": [
+      "Browser-equipped computer"
+    ],
+    "requirements": [
+      "Webcam",
+      "Camera permission"
+    ],
+    "status": "research",
+    "evidence_url": "https://webgazer.cs.brown.edu/",
+    "evidence_note": "Project page links the gaze game and calibration guidance.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Updates are not guaranteed from February 2026.",
+      "Calibration quality varies."
+    ],
+    "steps": [
+      "Open the Ball Collision demo.",
+      "Allow camera access and calibrate.",
+      "Look toward the target ball."
+    ],
+    "source_url": "https://github.com/brownhci/WebGazer"
+  },
+  {
+    "id": "aitrack",
+    "name": "AITrack",
+    "category": "Head and body",
+    "url": "https://github.com/AIRLegend/aitrack",
+    "summary": "Estimate head position from a webcam and send it to opentrack for compatible simulator controls.",
+    "summary_zh": "用摄像头估计头部位置，并发送给 opentrack 控制兼容模拟器的视角。",
+    "outcome": "Webcam simulator head tracking",
+    "outcome_zh": "摄像头模拟器头部追踪",
+    "devices": [
+      "Windows"
+    ],
+    "requirements": [
+      "Webcam",
+      "opentrack"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/AIRLegend/aitrack",
+    "evidence_note": "README documents opentrack integration and camera requirements.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Requires a separate opentrack installation.",
+      "Lighting and camera placement matter."
+    ],
+    "steps": [
+      "Download AITrack.",
+      "Configure opentrack to receive its UDP output.",
+      "Start both programs and center tracking."
+    ]
+  },
+  {
+    "id": "body-synth",
+    "name": "Body Synth",
+    "category": "Head and body",
+    "url": "https://experiments.withgoogle.com/body-synth",
+    "summary": "Make music by moving your body in front of a webcam; optionally speak commands to change chords or instruments.",
+    "summary_zh": "在摄像头前移动身体来创作音乐，也可通过语音改变和弦或乐器。",
+    "outcome": "Body movement plays music",
+    "outcome_zh": "身体动作演奏音乐",
+    "devices": [
+      "Compatible browser"
+    ],
+    "requirements": [
+      "Webcam",
+      "Microphone for optional voice commands"
+    ],
+    "status": "research",
+    "evidence_url": "https://experiments.withgoogle.com/body-synth",
+    "evidence_note": "Creator's experiment page explains movement and voice controls.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Browser experiment; availability may change.",
+      "Camera framing and sensitivity need adjustment."
+    ],
+    "steps": [
+      "Launch the experiment and allow camera access.",
+      "Adjust movement sensitivity.",
+      "Move to generate notes."
+    ]
+  },
+  {
+    "id": "eviacam",
+    "name": "Enable Viacam",
+    "category": "Head and body",
+    "url": "https://eviacam.crea-si.com/",
+    "summary": "Translate head motion into pointer movement using an ordinary webcam, with dwell clicking available.",
+    "summary_zh": "使用普通摄像头把头部运动转成指针移动，并可通过停留点击。",
+    "outcome": "Webcam head mouse",
+    "outcome_zh": "摄像头头部鼠标",
+    "devices": [
+      "Windows",
+      "Linux"
+    ],
+    "requirements": [
+      "Webcam"
+    ],
+    "status": "released",
+    "evidence_url": "https://eviacam.crea-si.com/index.php",
+    "evidence_note": "Official site provides downloads and configuration guidance.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Published Windows requirements list older releases; verify your system."
+    ],
+    "steps": [
+      "Install the suitable build.",
+      "Run the camera configuration wizard.",
+      "Adjust speed and dwell timing."
+    ]
+  },
+  {
+    "id": "mac-head-pointer",
+    "name": "macOS Head Pointer",
+    "category": "Head and body",
+    "url": "https://support.apple.com/en-ie/guide/mac-help/mchlb2d4782b/27/mac/27",
+    "summary": "Move the Mac pointer with head motion captured by a camera, pairing it with a chosen alternative click action.",
+    "summary_zh": "通过摄像头捕捉头部运动来移动 Mac 指针，并搭配其他点击方式。",
+    "outcome": "Head-operated pointer",
+    "outcome_zh": "头部控制指针",
+    "devices": [
+      "Mac"
+    ],
+    "requirements": [
+      "Built-in or connected camera"
+    ],
+    "status": "released",
+    "evidence_url": "https://support.apple.com/en-ie/guide/mac-help/mchlb2d4782b/27/mac/27",
+    "evidence_note": "Apple describes head movement and alternative clicking.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Pointer movement and clicking require separate configuration."
+    ],
+    "steps": [
+      "Enable Head Pointer in Pointer Control.",
+      "Choose the camera and movement settings.",
+      "Configure an alternative click action."
+    ]
+  },
+  {
+    "id": "opentrack",
+    "name": "opentrack",
+    "category": "Head and body",
+    "url": "https://github.com/opentrack/opentrack",
+    "summary": "Turn head motion into view movement in compatible games, including a webcam-based neural-network input option.",
+    "summary_zh": "将头部运动转换为兼容游戏中的视角移动，也提供基于摄像头的神经网络输入。",
+    "outcome": "Look around game worlds",
+    "outcome_zh": "转头查看游戏世界",
+    "devices": [
+      "Windows",
+      "Linux",
+      "macOS"
+    ],
+    "requirements": [
+      "Webcam for neuralnet input",
+      "Compatible game"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/opentrack/opentrack/wiki/AI-Face-Tracking/3d839e36c47074ad40de570e1abfb0dce865fd37",
+    "evidence_note": "Preserved project-wiki revision documents neural-network face tracking.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Available builds differ by platform.",
+      "Game output must be supported."
+    ],
+    "steps": [
+      "Install an appropriate build.",
+      "Select neuralnet input and game output.",
+      "Start tracking and center the view."
+    ]
+  },
+  {
+    "id": "smoothtrack",
+    "name": "SmoothTrack",
+    "category": "Head and body",
+    "url": "https://smoothtrack.app/",
+    "summary": "Use a phone camera as a head tracker for PC games through opentrack.",
+    "summary_zh": "通过 opentrack，把手机摄像头变成电脑游戏的头部追踪器。",
+    "outcome": "Phone-powered head tracking",
+    "outcome_zh": "手机驱动头部追踪",
+    "devices": [
+      "Supported iPhone or Android phone",
+      "PC"
+    ],
+    "requirements": [
+      "Paid SmoothTrack app",
+      "Free opentrack",
+      "Compatible phone tracking support"
+    ],
+    "status": "released",
+    "evidence_url": "https://smoothtrack.app/",
+    "evidence_note": "Developer provides phone-to-PC setup instructions.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Phone compatibility varies; Android requires ARCore.",
+      "Network restrictions can block UDP."
+    ],
+    "steps": [
+      "Install opentrack on the PC.",
+      "Configure the documented UDP connection.",
+      "Position the phone and start tracking."
+    ]
+  },
+  {
+    "id": "touchfree",
+    "name": "Ultraleap TouchFree (legacy)",
+    "category": "Hands in air",
+    "url": "https://docs.ultraleap.com/TouchFree/touchfree-user-manual/setup.html",
+    "summary": "Operate screen controls with tracked hand movement and hover or virtual-plane selection.",
+    "summary_zh": "通过手部追踪移动指针，并用悬停或虚拟平面操作屏幕控件。",
+    "outcome": "Touchless screen interaction",
+    "outcome_zh": "非接触式屏幕操作",
+    "devices": [
+      "Windows"
+    ],
+    "requirements": [
+      "Separate Ultraleap Hand Tracking Camera",
+      "Administrator installation access",
+      "Appropriate Ultraleap license"
+    ],
+    "status": "archived",
+    "evidence_url": "https://docs.ultraleap.com/TouchFree/touchfree-user-manual/setup.html",
+    "evidence_note": "Documentation survives; old source repository archived, current installer chain unresolved.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Installer links lead to a generic page or gateway error.",
+      "Commercial deployment needs separate licensing."
+    ],
+    "steps": [
+      "Consult setup guide and confirm installer availability.",
+      "Connect the dedicated camera and run Camera Setup.",
+      "Choose and tune the interaction mode."
+    ],
+    "source_url": "https://github.com/ultraleap/TouchFree"
+  },
+  {
+    "id": "makey-makey",
+    "name": "Makey Makey Piano and Scratch",
+    "category": "Objects and surfaces",
+    "url": "https://makeymakey.com/blogs/how-to-instructions/lesson-two-hands-on-a-makey-makey",
+    "summary": "Connect conductive everyday objects to keyboard inputs, then use them to play a browser piano or control Scratch.",
+    "summary_zh": "把可导电的日常物件接成键盘输入，用来弹奏浏览器钢琴或控制 Scratch。",
+    "outcome": "Objects become touch controls",
+    "outcome_zh": "物件变成触摸控制器",
+    "devices": [
+      "USB computer"
+    ],
+    "requirements": [
+      "Purchased Makey Makey board",
+      "Alligator clips",
+      "Conductive objects"
+    ],
+    "status": "released",
+    "evidence_url": "https://makeymakey.com/blogs/how-to-instructions/lesson-two-hands-on-a-makey-makey",
+    "evidence_note": "Manufacturer lesson demonstrates piano and Scratch.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Input objects must conduct electricity.",
+      "Requires the hardware board."
+    ],
+    "steps": [
+      "Connect the board by USB.",
+      "Open the piano or Scratch example.",
+      "Hold EARTH and touch connected inputs."
+    ]
+  },
+  {
+    "id": "paper-playground",
+    "name": "Paper Playground",
+    "category": "Objects and surfaces",
+    "url": "https://phetsims.github.io/paper-land/",
+    "summary": "Arrange printed, encoded papers to control interactive web programs, sound, and other outputs through a camera.",
+    "summary_zh": "移动印有编码的纸张，通过摄像头控制交互式网页程序、声音及其他输出。",
+    "outcome": "Paper becomes a program interface",
+    "outcome_zh": "纸张成为程序界面",
+    "devices": [
+      "Computer"
+    ],
+    "requirements": [
+      "Webcam",
+      "Printer",
+      "Local project setup"
+    ],
+    "status": "source-build",
+    "evidence_url": "https://phetsims.github.io/paper-land/",
+    "evidence_note": "PhET project documents tangible programs and Creator.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Requires installation and camera alignment.",
+      "Projector is optional."
+    ],
+    "steps": [
+      "Follow Installation and Device Setup.",
+      "Create and print encoded papers.",
+      "Move papers while viewing program output."
+    ],
+    "spotlight": true,
+    "source_url": "https://github.com/phetsims/paper-land"
+  },
+  {
+    "id": "reactivision",
+    "name": "reacTIVision",
+    "category": "Objects and surfaces",
+    "url": "https://reactivision.sourceforge.net/",
+    "summary": "Track printed markers on physical objects and send their movement to TUIO clients or MIDI software.",
+    "summary_zh": "追踪实体物件上的打印标记，将运动信息发送给 TUIO 客户端或 MIDI 软件。",
+    "outcome": "Physical objects control software",
+    "outcome_zh": "实体物件控制软件",
+    "devices": [
+      "Windows",
+      "macOS",
+      "Linux"
+    ],
+    "requirements": [
+      "Camera",
+      "Printed fiducial markers",
+      "TUIO or MIDI receiver"
+    ],
+    "status": "released",
+    "evidence_url": "https://reactivision.sourceforge.net/",
+    "evidence_note": "Project describes marker recognition and output protocols.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "No bundled synthesizer or visualization engine.",
+      "Check older binary compatibility."
+    ],
+    "steps": [
+      "Print the supplied markers.",
+      "Start the camera tracker.",
+      "Connect a TUIO client or MIDI receiver."
+    ]
+  },
+  {
+    "id": "joyshockmapper",
+    "name": "JoyShockMapper",
+    "category": "Tilt and motion",
+    "url": "https://github.com/Electronicks/JoyShockMapper",
+    "summary": "Map a compatible controller's gyroscope to mouse aiming and configure flick-stick or motion bindings for PC games.",
+    "summary_zh": "把兼容手柄的陀螺仪映射为鼠标瞄准，并为电脑游戏配置 flick-stick 或动作绑定。",
+    "outcome": "Gyro aiming in PC games",
+    "outcome_zh": "电脑游戏陀螺仪瞄准",
+    "devices": [
+      "Windows",
+      "Linux source builds"
+    ],
+    "requirements": [
+      "DualSense, DualShock 4, paired Joy-Cons, or Switch Pro Controller"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/Electronicks/JoyShockMapper",
+    "evidence_note": "Current official fork documents controllers and configuration.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Linux builds may require fixes.",
+      "Sensitivity needs per-game tuning."
+    ],
+    "steps": [
+      "Download a release.",
+      "Connect a supported controller.",
+      "Load and calibrate a game configuration."
+    ],
+    "spotlight": true
+  },
+  {
+    "id": "microbit-theremin",
+    "name": "micro:bit Scratch Theremin",
+    "category": "Tilt and motion",
+    "url": "https://microbit.org/projects/make-it-code-it/scratch-theremin/",
+    "summary": "Tilt a micro:bit to change musical pitch in a Scratch project.",
+    "summary_zh": "倾斜 micro:bit，在 Scratch 项目中改变音高。",
+    "outcome": "Tilt-controlled musical pitch",
+    "outcome_zh": "倾斜控制音高",
+    "devices": [
+      "Scratch-compatible computer",
+      "micro:bit"
+    ],
+    "requirements": [
+      "Scratch Link",
+      "Bluetooth connection"
+    ],
+    "status": "source-build",
+    "evidence_url": "https://microbit.org/projects/make-it-code-it/scratch-theremin/",
+    "evidence_note": "Foundation tutorial supplies the project and connection guidance.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Uses board tilt, not hand distance.",
+      "Requires compatible Scratch connectivity."
+    ],
+    "steps": [
+      "Set up Scratch Link and connect micro:bit.",
+      "Open the supplied project.",
+      "Tilt forward and backward to change pitch."
+    ]
+  },
+  {
+    "id": "mobile-mouse-air",
+    "name": "Mobile Mouse Air Mouse",
+    "category": "Tilt and motion",
+    "url": "https://mobilemouse.com/guides/iphone-air-mouse/",
+    "summary": "Move an iPhone in the air to steer a computer pointer while holding an onscreen trigger.",
+    "summary_zh": "按住屏幕上的触发按钮，在空中移动 iPhone 来控制电脑指针。",
+    "outcome": "A phone becomes an air mouse",
+    "outcome_zh": "手机变为空中鼠标",
+    "devices": [
+      "iPhone",
+      "Mac or Windows computer"
+    ],
+    "requirements": [
+      "Paid Mobile Mouse app",
+      "Computer server",
+      "Wi-Fi connection"
+    ],
+    "status": "released",
+    "evidence_url": "https://mobilemouse.com/guides/iphone-air-mouse/",
+    "evidence_note": "Developer guide describes the Wi-Fi air-mouse workflow.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Separate server required for this workflow.",
+      "Release trigger to reposition."
+    ],
+    "steps": [
+      "Install the app and server.",
+      "Confirm the connection with trackpad mode.",
+      "Open Air Mouse and hold its trigger."
+    ]
+  },
+  {
+    "id": "acat",
+    "name": "Intel ACAT",
+    "category": "Breath and switches",
+    "url": "https://github.com/intel/acat",
+    "summary": "Use configured switches or camera-based actuators to select a scanning keyboard and communicate through speech output.",
+    "summary_zh": "通过配置的开关或摄像头输入选择扫描式键盘，并用语音输出交流。",
+    "outcome": "Switch-selected communication",
+    "outcome_zh": "开关选择式交流",
+    "devices": [
+      "Windows"
+    ],
+    "requirements": [
+      "Compatible actuator or webcam"
+    ],
+    "status": "released",
+    "evidence_url": "https://github.com/intel/acat",
+    "evidence_note": "Intel provides the toolkit and actuator configuration.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Input setup is device-specific.",
+      "Not every gesture is a supported actuator."
+    ],
+    "steps": [
+      "Install the base ACAT release.",
+      "Configure an actuator in Dashboard.",
+      "Launch scanning and compose a message."
+    ]
+  },
+  {
+    "id": "lipsync",
+    "name": "LipSync 4.1",
+    "category": "Breath and switches",
+    "url": "https://github.com/makersmakingchange/LipSync",
+    "summary": "Combine a mouth-operated joystick with sip-and-puff inputs to control a mouse or gamepad through an open hardware hub.",
+    "summary_zh": "结合嘴部操作的摇杆与吸吹输入，通过开源硬件控制鼠标或游戏手柄。",
+    "outcome": "Mouth and breath computer controls",
+    "outcome_zh": "口部与呼吸控制电脑",
+    "devices": [
+      "Computers",
+      "Compatible mobile devices"
+    ],
+    "requirements": [
+      "LipSync joystick and hub",
+      "Components, fabrication or maker assistance"
+    ],
+    "status": "source-build",
+    "evidence_url": "https://github.com/makersmakingchange/LipSync",
+    "evidence_note": "Maintainer supplies hardware, firmware and build documentation.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Custom hardware required.",
+      "Listed interface cable is currently unavailable."
+    ],
+    "steps": [
+      "Build or request the documented hardware.",
+      "Connect the hub and choose a mode.",
+      "Calibrate joystick and pressure settings."
+    ]
+  },
+  {
+    "id": "quadstick",
+    "name": "QuadStick Manager",
+    "category": "Breath and switches",
+    "url": "https://www.quadstick.com/downloads",
+    "summary": "Configure sip-and-puff pressure thresholds and mappings for QuadStick's game and computer controls.",
+    "summary_zh": "配置 QuadStick 的吸吹压力阈值和映射，用来操作游戏与电脑。",
+    "outcome": "Adjustable sip-and-puff commands",
+    "outcome_zh": "可调节的吸吹命令",
+    "devices": [
+      "Windows"
+    ],
+    "requirements": [
+      "QuadStick hardware; new units currently sold out",
+      "Mounting arm"
+    ],
+    "status": "released",
+    "evidence_url": "https://quadstick.s3.amazonaws.com/documents/user_manual/um/sip_puff_tab.htm",
+    "evidence_note": "Manufacturer manual documents pressure settings; QMP 4 installer remains downloadable.",
+    "checked_at": "2026-10-26",
+    "limitations": [
+      "Vendor currently lists controller models sold out.",
+      "Actions depend on the selected profile."
+    ],
+    "steps": [
+      "Connect QuadStick and open the Sip/Puff tab.",
+      "Adjust pressure thresholds and timing.",
+      "Save preferences to QuadStick."
+    ],
+    "spotlight": true
+  }
+]
