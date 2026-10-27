@@ -18,11 +18,44 @@
 
 ## 六个值得先看的玩法
 
-| | |
-| --- | --- |
-| [![Talon: Hands\-free desktop commands](assets/talon.svg)](docs/catalog.md#talon)<br>**[Talon](docs/catalog.md#talon)**<br>免手操作桌面<br>*已有使用方案*<br>需要: Microphone | [![OptiKey: Gaze typing and desktop access](assets/optikey.svg)](docs/catalog.md#optikey)<br>**[OptiKey](docs/catalog.md#optikey)**<br>眼动打字与桌面操作<br>*已有使用方案*<br>需要: Supported eye tracker for gaze |
-| [![EyeHarp: Perform music with gaze](assets/eyeharp.svg)](docs/catalog.md#eyeharp)<br>**[EyeHarp](docs/catalog.md#eyeharp)**<br>用眼动演奏音乐<br>*已有使用方案*<br>需要: Separate Tobii eye tracker for gaze | [![QuadStick Manager: Adjustable sip\-and\-puff commands](assets/quadstick.svg)](docs/catalog.md#quadstick)<br>**[QuadStick Manager](docs/catalog.md#quadstick)**<br>可调节的吸吹命令<br>*已有使用方案*<br>需要: QuadStick hardware; new units currently sold out |
-| [![Paper Playground: Paper becomes a program interface](assets/paper-playground.svg)](docs/catalog.md#paper-playground)<br>**[Paper Playground](docs/catalog.md#paper-playground)**<br>纸张成为程序界面<br>*源码 / DIY 构建*<br>需要: Webcam | [![JoyShockMapper: Gyro aiming in PC games](assets/joyshockmapper.svg)](docs/catalog.md#joyshockmapper)<br>**[JoyShockMapper](docs/catalog.md#joyshockmapper)**<br>电脑游戏陀螺仪瞄准<br>*已有使用方案*<br>需要: DualSense, DualShock 4, paired Joy\-Cons, or Switch Pro Controller |
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+[![Talon: Hands\-free desktop commands](assets/talon.svg)](docs/catalog.md#talon)<br>**[Talon](docs/catalog.md#talon)**<br>免手操作桌面<br>*已有使用方案*<br>需要: Microphone
+
+</td>
+<td width="50%" valign="top">
+
+[![OptiKey: Gaze typing and desktop access](assets/optikey.svg)](docs/catalog.md#optikey)<br>**[OptiKey](docs/catalog.md#optikey)**<br>眼动打字与桌面操作<br>*已有使用方案*<br>需要: Supported eye tracker for gaze
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+[![EyeHarp: Perform music with gaze](assets/eyeharp.svg)](docs/catalog.md#eyeharp)<br>**[EyeHarp](docs/catalog.md#eyeharp)**<br>用眼动演奏音乐<br>*已有使用方案*<br>需要: Separate Tobii eye tracker for gaze
+
+</td>
+<td width="50%" valign="top">
+
+[![QuadStick Manager: Adjustable sip\-and\-puff commands](assets/quadstick.svg)](docs/catalog.md#quadstick)<br>**[QuadStick Manager](docs/catalog.md#quadstick)**<br>可调节的吸吹命令<br>*已有使用方案*<br>需要: QuadStick hardware; new units currently sold out
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+[![Paper Playground: Paper becomes a program interface](assets/paper-playground.svg)](docs/catalog.md#paper-playground)<br>**[Paper Playground](docs/catalog.md#paper-playground)**<br>纸张成为程序界面<br>*源码 / DIY 构建*<br>需要: Webcam
+
+</td>
+<td width="50%" valign="top">
+
+[![JoyShockMapper: Gyro aiming in PC games](assets/joyshockmapper.svg)](docs/catalog.md#joyshockmapper)<br>**[JoyShockMapper](docs/catalog.md#joyshockmapper)**<br>电脑游戏陀螺仪瞄准<br>*已有使用方案*<br>需要: DualSense, DualShock 4, paired Joy\-Cons, or Switch Pro Controller
+
+</td>
+</tr>
+</table>
 
 ## 目录
 

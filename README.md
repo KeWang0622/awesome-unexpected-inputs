@@ -18,11 +18,44 @@ Cover and cards are original conceptual illustrations, not screenshots or test e
 
 ## Six places to start
 
-| | |
-| --- | --- |
-| [![Talon: Hands\-free desktop commands](assets/talon.svg)](docs/catalog.md#talon)<br>**[Talon](docs/catalog.md#talon)**<br>Hands\-free desktop commands<br>*Available setup*<br>Needs: Microphone | [![OptiKey: Gaze typing and desktop access](assets/optikey.svg)](docs/catalog.md#optikey)<br>**[OptiKey](docs/catalog.md#optikey)**<br>Gaze typing and desktop access<br>*Available setup*<br>Needs: Supported eye tracker for gaze |
-| [![EyeHarp: Perform music with gaze](assets/eyeharp.svg)](docs/catalog.md#eyeharp)<br>**[EyeHarp](docs/catalog.md#eyeharp)**<br>Perform music with gaze<br>*Available setup*<br>Needs: Separate Tobii eye tracker for gaze | [![QuadStick Manager: Adjustable sip\-and\-puff commands](assets/quadstick.svg)](docs/catalog.md#quadstick)<br>**[QuadStick Manager](docs/catalog.md#quadstick)**<br>Adjustable sip\-and\-puff commands<br>*Available setup*<br>Needs: QuadStick hardware; new units currently sold out |
-| [![Paper Playground: Paper becomes a program interface](assets/paper-playground.svg)](docs/catalog.md#paper-playground)<br>**[Paper Playground](docs/catalog.md#paper-playground)**<br>Paper becomes a program interface<br>*Source / DIY build*<br>Needs: Webcam | [![JoyShockMapper: Gyro aiming in PC games](assets/joyshockmapper.svg)](docs/catalog.md#joyshockmapper)<br>**[JoyShockMapper](docs/catalog.md#joyshockmapper)**<br>Gyro aiming in PC games<br>*Available setup*<br>Needs: DualSense, DualShock 4, paired Joy\-Cons, or Switch Pro Controller |
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+[![Talon: Hands\-free desktop commands](assets/talon.svg)](docs/catalog.md#talon)<br>**[Talon](docs/catalog.md#talon)**<br>Hands\-free desktop commands<br>*Available setup*<br>Needs: Microphone
+
+</td>
+<td width="50%" valign="top">
+
+[![OptiKey: Gaze typing and desktop access](assets/optikey.svg)](docs/catalog.md#optikey)<br>**[OptiKey](docs/catalog.md#optikey)**<br>Gaze typing and desktop access<br>*Available setup*<br>Needs: Supported eye tracker for gaze
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+[![EyeHarp: Perform music with gaze](assets/eyeharp.svg)](docs/catalog.md#eyeharp)<br>**[EyeHarp](docs/catalog.md#eyeharp)**<br>Perform music with gaze<br>*Available setup*<br>Needs: Separate Tobii eye tracker for gaze
+
+</td>
+<td width="50%" valign="top">
+
+[![QuadStick Manager: Adjustable sip\-and\-puff commands](assets/quadstick.svg)](docs/catalog.md#quadstick)<br>**[QuadStick Manager](docs/catalog.md#quadstick)**<br>Adjustable sip\-and\-puff commands<br>*Available setup*<br>Needs: QuadStick hardware; new units currently sold out
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+[![Paper Playground: Paper becomes a program interface](assets/paper-playground.svg)](docs/catalog.md#paper-playground)<br>**[Paper Playground](docs/catalog.md#paper-playground)**<br>Paper becomes a program interface<br>*Source / DIY build*<br>Needs: Webcam
+
+</td>
+<td width="50%" valign="top">
+
+[![JoyShockMapper: Gyro aiming in PC games](assets/joyshockmapper.svg)](docs/catalog.md#joyshockmapper)<br>**[JoyShockMapper](docs/catalog.md#joyshockmapper)**<br>Gyro aiming in PC games<br>*Available setup*<br>Needs: DualSense, DualShock 4, paired Joy\-Cons, or Switch Pro Controller
+
+</td>
+</tr>
+</table>
 
 ## Explore the collection
 

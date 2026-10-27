@@ -196,7 +196,13 @@ def render_readme(projects,c,zh=False):
     for spec in c['spotlights']:
         p=lookup[spec['id']];target='docs/catalog.md#'+p['id']
         cells.append(f'[![{p["name"]}: {p["outcome"]}](assets/{p["id"]}.svg)]({target})<br>**[{p["name"]}]({target})**<br>{p["outcome"+lang]}<br>*{(STATUS_ZH if zh else STATUS)[p["status"]]}*<br>{"需要" if zh else "Needs"}: {p["requirements"][0]}')
-    out.append('| | |\n| --- | --- |\n'+'\n'.join('| '+cells[i]+' | '+cells[i+1]+' |' for i in range(0,6,2)))
+    # GitHub's automatic Markdown table sizing otherwise gives long captions
+    # wider columns and makes identically sized illustrations appear unequal.
+    rows=[]
+    for i in range(0,6,2):
+        row='\n'.join('<td width="50%" valign="top">\n\n'+cell+'\n\n</td>' for cell in cells[i:i+2])
+        rows.append('<tr>\n'+row+'\n</tr>')
+    out.append('<table width="100%">\n'+'\n'.join(rows)+'\n</table>')
     out.append('## 目录' if zh else '## Explore the collection')
     out.append(' · '.join(f'[{markdown(x["name_zh" if zh else "name"])}](#{x["id"]})' for x in c['categories']))
     for cat in c['categories']:
